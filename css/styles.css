@@ -1,0 +1,125 @@
+@charset "UTF-8";
+
+* { box-sizing: border-box;}
+
+html,body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+html {
+  font-family: 'Helvetica Neue', Helvetica, sans-serif;
+  color: #2a2a2a;
+}
+
+a:active, a:visited {
+  color:inherit;
+}
+
+.clearfix::before, .clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+.contact-deets {
+  position: fixed;
+  width: 100%;
+  padding: 1rem;
+  background-color: #ccc;
+  text-align: center;
+  box-shadow: 1px 1px 3px;
+
+}
+.topbar {
+  text-align: right;
+  display: relative;
+}
+
+.topbar ul{
+  list-style-type: none;
+  padding: 0;
+}
+.social-links {
+  margin-top: 3rem;
+}
+.social-links ul li {
+  float: left;
+}
+.social-links ul li {
+  width: 4rem;
+}
+.social-links ul li a{
+  display: inline-block;
+  color: inherit;
+  height: inherit;
+  width: 100%;
+  line-height: 4rem;
+  text-decoration: none;
+  font-size: 1rem;
+  text-align: center;
+  border: 1px #F0F0F1 solid;
+}
+
+.social-links ul li:first-child a{
+  background-color: blue;
+}
+.social-links ul li:nth-child(2) a{
+  background-color: lightblue;
+}
+.social-links ul li:last-child a{
+  background-color: red;
+}
+
+.call-to-action {
+  height: 200px;
+  text-align: center;
+}
+
+.main {
+  margin-top: 3rem;
+}
+.nav-links {
+  width: 100%;
+  border: 1px dotted;
+}
+.nav-links ul {
+  list-style: none;
+  width: auto;
+  margin: auto;
+}
+.nav-links ul li {
+  float: left;
+}
+.nav-links ul li a{
+  color: inherit;
+  height: inherit;
+  line-height: 100px;
+  text-decoration: none;
+  font-size: 1.2rem;
+  display: inline-block;
+  width: 8rem;
+  text-align: center;
+}
+
+
+.slider {
+  height: 460px;
+  background:url("https://images.pexels.com/photos/567633/pexels-photo-567633.jpeg?cs=srgb&dl=adults-agreement-beverage-567633.jpg&fm=jpg") #f20 no-repeat;
+  background-size: cover;
+  padding: 0;
+}
+
+.slider h1 {
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  width: auto;
+  height: 100%; margin: 0;
+  text-align: center;
+  line-height: 460px;
+}
